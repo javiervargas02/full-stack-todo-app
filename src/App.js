@@ -25,9 +25,7 @@ export default function App() {
   }) => {
     setUserInformation(null);
     deleteUser();
-    toast(message, {
-      icon: icon,
-    });
+    toast(message, { icon });
   };
 
   useEffect(() => {
